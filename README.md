@@ -1,5 +1,10 @@
 # A Prova dos Arquimagos — Guilda Arcana de Otimização
 
+Uma jornada interativa pelo universo da complexidade de algoritmos, unindo Ciência da Computação e fantasia medieval.
+
+![Tela principal do projeto](imagens/inicio.png)
+
+---
 
 ## Sobre o projeto
 
@@ -9,6 +14,7 @@ O projeto utiliza uma temática de fantasia medieval, na qual diferentes ordens 
 
 O site foi desenvolvido com tecnologias web e oferece exemplos de código que podem ser executados diretamente no navegador.
 
+---
 
 ## Objetivos
 
@@ -18,6 +24,7 @@ A proposta busca aproximar a teoria da prática por meio de exemplos em Python, 
 
 Além disso, o projeto permite aplicar conhecimentos de desenvolvimento web, integração entre tecnologias e organização de conteúdo técnico, transformando um assunto importante da Ciência da Computação em uma experiência de aprendizado mais envolvente.
 
+---
 
 ## Conceito e linha de pensamento
 
@@ -29,39 +36,43 @@ A abordagem combina três elementos: uma explicação conceitual, uma representa
 
 A interatividade também faz parte dessa proposta, permitindo que o usuário explore as ordens de complexidade e execute os exemplos apresentados.
 
+---
 
 ## As sete ordens da complexidade
 
----- O(1) — Complexidade constante
+### O(1) — Complexidade constante
 
 Representa algoritmos cujo custo permanece constante, independentemente do tamanho da entrada. Um exemplo é acessar diretamente um elemento de uma lista por meio de seu índice, considerando as condições usuais dessa operação.
 
----- O(log n) — Complexidade logarítmica
+### O(log n) — Complexidade logarítmica
 
 Representa algoritmos que reduzem progressivamente o espaço de busca ou o problema a cada etapa. A busca binária é um exemplo clássico, pois divide pela metade o intervalo de pesquisa em cada comparação, desde que os dados estejam ordenados.
 
----- O(n) — Complexidade linear
+### O(n) — Complexidade linear
 
 Representa algoritmos cujo custo cresce proporcionalmente ao tamanho da entrada. Um exemplo é percorrer uma lista inteira para processar ou verificar seus elementos.
 
----- O(n log n) — Complexidade linearítmica
+### O(n log n) — Complexidade linearítmica
 
 Representa algoritmos que combinam o processamento de elementos com etapas de divisão ou organização do problema. O Merge Sort é um exemplo, pois divide a lista em partes menores, ordena essas partes e depois as combina.
 
----- O(n²) — Complexidade quadrática
+### O(n²) — Complexidade quadrática
 
 Representa algoritmos cujo custo pode crescer proporcionalmente ao quadrado do tamanho da entrada. Um exemplo é utilizar dois laços aninhados para comparar pares de elementos ou gerar combinações entre os elementos de uma coleção.
 
----- O(2ⁿ) — Complexidade exponencial
+### O(2ⁿ) — Complexidade exponencial
 
 Representa algoritmos cujo número de possibilidades pode dobrar a cada novo elemento considerado. Um exemplo é explorar todas as combinações possíveis de escolhas binárias, situação que pode se tornar rapidamente custosa conforme a entrada aumenta.
 
----- O(n!) — Complexidade fatorial
+### O(n!) — Complexidade fatorial
 
 Representa algoritmos cujo número de possibilidades cresce de maneira fatorial. A geração de todas as permutações de um conjunto é um exemplo, pois a quantidade de ordenações possíveis aumenta rapidamente com cada novo elemento.
 
 Ao final, o projeto apresenta um desafio que convida o usuário a comparar estimativas de complexidade e aplicar os conceitos estudados. Essa etapa, chamada de O Destino do Reino, reforça a importância de reconhecer o crescimento do custo computacional para escolher soluções mais adequadas.
 
+![Desafio final do projeto](imagens/desafio-final.png)
+
+---
 
 ## Tecnologias utilizadas
 
@@ -71,6 +82,7 @@ Python é utilizado nos exemplos de algoritmos apresentados ao usuário. Para pe
 
 O Prism.js na versão 1.29.0 é utilizado para destacar a sintaxe dos trechos de código, tornando sua leitura mais clara. As bibliotecas externas são carregadas por meio de CDNs, o que significa que a conexão com a internet é necessária para carregá-las quando o projeto é executado dessa forma.
 
+---
 
 ## Como o projeto funciona
 
@@ -80,6 +92,9 @@ O JavaScript controla as interações da página e integra os recursos necessár
 
 O Prism.js aplica o realce de sintaxe aos trechos de código, ajudando a distinguir os elementos da linguagem. A combinação dessas tecnologias permite reunir explicações, apresentação visual e experimentação prática em uma única página.
 
+![Demonstração interativa do projeto](imagens/demonstracao.gif)
+
+---
 
 ## Como executar o projeto
 
@@ -91,6 +106,7 @@ Como o projeto utiliza bibliotecas carregadas de CDNs, é necessário ter acesso
 
 O projeto também pode ser publicado em um serviço de hospedagem de páginas estáticas, como o GitHub Pages, desde que os arquivos necessários estejam incluídos no repositório e os caminhos utilizados pelo projeto estejam corretos.
 
+---
 
 ## Ressalvas finais
 
