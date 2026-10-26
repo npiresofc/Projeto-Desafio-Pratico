@@ -2,7 +2,7 @@
 
 Uma jornada interativa pelo universo da complexidade de algoritmos, unindo Ciência da Computação e fantasia medieval.
 
-![Tela principal do projeto](imagens/inicio.png)
+![Tela principal do projeto](images/inicio.png)
 
 ---
 
@@ -70,7 +70,7 @@ Representa algoritmos cujo número de possibilidades cresce de maneira fatorial.
 
 Ao final, o projeto apresenta um desafio que convida o usuário a comparar estimativas de complexidade e aplicar os conceitos estudados. Essa etapa, chamada de O Destino do Reino, reforça a importância de reconhecer o crescimento do custo computacional para escolher soluções mais adequadas.
 
-![Desafio final do projeto](imagens/desafio-final.png)
+![Desafio final do projeto](images/desafio-final.png)
 
 ---
 
@@ -92,7 +92,7 @@ O JavaScript controla as interações da página e integra os recursos necessár
 
 O Prism.js aplica o realce de sintaxe aos trechos de código, ajudando a distinguir os elementos da linguagem. A combinação dessas tecnologias permite reunir explicações, apresentação visual e experimentação prática em uma única página.
 
-![Demonstração interativa do projeto](imagens/demonstracao.gif)
+![Demonstração interativa do projeto](images/demonstracao.gif)
 
 ---
 
